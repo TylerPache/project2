@@ -1,0 +1,462 @@
+body {
+    margin: 0px;
+    background-image: url("../images/Quebec-city.png");
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/** navbar css **/
+
+ul {
+    margin: auto;
+    list-style: none;
+    overflow: hidden;
+    background-color: #00CED1;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+li {
+
+    display: inline-block;
+    float: none;
+}
+
+li > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+
+}
+
+li a:hover {
+    background-color: #000033;
+    color: white;
+}
+
+
+/** Positioning for elements **/
+
+form {
+    margin-left: 11em;
+    font-family: sans-serif;
+    background-color: #00CED1;
+    margin-top: 5%;
+    margin-bottom: 5em;
+    width: 50%;
+}
+
+#headingquestion {
+    position: relative;
+    left: 20px;
+}
+
+#numgroup {
+    position: relative;
+    top: -2px;
+    left: 20px;
+}
+
+#visit {
+    position: relative;
+    bottom: .5em;
+    left: 20px;
+}
+
+#favplace {
+    position: relative;
+    top: 15px;
+}
+
+#restaurants {
+    position: relative;
+    top: 15px;
+}
+
+#rating {
+    position: relative;
+    top: 2em;
+    left: 40px;
+}
+
+#button {
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 30px 30px 10px 30px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+}
+
+#name {
+    position: relative;
+    top: -2em;
+    display: inline;
+    left: 20px;
+}
+
+.astric {
+    color: red;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background-color: #00ced1;
+
+}
+
+#imageslideshow {
+    text-align: center;
+}
+
+#indexbox {
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    text-align: center;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: #00CED1;
+    font-size: 20px;
+    width: 80%;
+
+}
+
+#contacthead {
+    text-align: center;
+    font-size: 30px;
+}
+
+#contactinfo {
+    text-align: left;
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin: auto;
+    background-color: #00CED1;
+    font-size: 1.35em;
+    width: 80%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+p.foodbox {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+p.faqbox {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+p.sumbox {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+p.wintbox {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+p.poibox {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.contactbox {
+    margin-right: 2em;
+    margin-left: 2em;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+img.food {
+    margin-bottom: 2em;
+    float: right;
+    margin: 20px;
+    width: 20%;
+}
+
+img.food2 {
+    margin-bottom: 2em;
+    float: left;
+    margin: 20px;
+    width: 20%
+}
+
+img.facts {
+    margin-bottom: 2em;
+    float: left;
+    margin: 20px;
+    width: 20%;
+}
+
+img.facts2 {
+    margin-bottom: 2em;
+    float: right;
+    margin: 20px;
+    width: 20%;
+}
+
+img.sum {
+    margin-bottom: 2em;
+    float: right;
+    margin: 20px;
+    width: 30%;
+}
+
+img.sum2 {
+    margin-bottom: 2em;
+    float: left;
+    margin: 20px;
+    width: 30%;
+}
+
+img.winter {
+    margin-bottom: 2em;
+    float: left;
+    margin: 20px;
+    width: 30%;
+}
+
+img.winter2 {
+    margin-bottom: 2em;
+    float: right;
+    margin: 20px;
+    width: 30%;
+}
+
+img.poi {
+    margin-bottom: 2em;
+    float: right;
+    margin: 20px;
+    width: 30%;
+}
+
+img.poi2 {
+    margin-bottom: 2em;
+    float: left;
+    margin: 20px;
+    width: 30%;
+
+}
+
+
+img.contact {
+    margin-bottom: 2em;
+    float: right;
+    margin: 20px;
+    width: 20%;
+}
+
+img.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+#slideshow-container {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    margin-top: 2em;
+}
+
+h1 {
+    text-align: center;
+    color: cyan
+}
+
+td {
+    text-align: left;
+    border-spacing: inherit;
+    font-size: .75em;
+}
+
+.refbox {
+    width: auto;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    text-align: center;
+    background-color: #00CED1;
+    font-size: 1.35em;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+td a {
+
+    text-decoration-line: underline;
+}
+
+img.ref {
+    width: 200px;
+    height: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+@media screen and (max-width: 1000px) {
+    form {
+        margin-left: 5.5em;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        margin-left: 1.5em;
+        width: 85%;
+    }
+
+
+    #headingquestion {
+        width: auto;
+    }
+
+    .box {
+        font-size: 20px;
+    }
+
+
+    img.food {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 50vw;
+    }
+
+    img.food2 {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 50vw;
+    }
+
+    img.facts {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw;
+    }
+
+    img.facts2 {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw
+    }
+
+    img.sum {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw;
+    }
+
+    img.sum2 {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw;
+    }
+
+    img.winter {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw;
+    }
+
+    img.winter2 {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw
+    }
+
+    img.poi {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw;
+    }
+
+    img.poi2 {
+        margin-bottom: 2em;
+        float: none;
+        margin: 20px;
+        width: 60vw;
+
+    }
+
+
+    img.contact {
+        margin-bottom: 2em;
+        float: right;
+        margin: 20px;
+        width: 20%;
+    }
+}
